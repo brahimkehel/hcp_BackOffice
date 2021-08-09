@@ -1,3 +1,7 @@
+#Functionality
+
+This is a dashboard for monitoring and handling diffrent hcp logic including (Documents,researchs,...)
+
 # HcpBackoffice
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
