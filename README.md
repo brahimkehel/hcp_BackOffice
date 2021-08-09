@@ -1,4 +1,4 @@
-#Functionality
+# Functionality
 
 This is a dashboard for monitoring and handling diffrent hcp logic including (Documents,researchs,...)
 
