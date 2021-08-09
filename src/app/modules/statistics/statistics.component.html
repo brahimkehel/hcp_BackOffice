@@ -1,0 +1,84 @@
+<br>
+<div class="row m-0 justify-content-center">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row m-0">
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-2">
+                <div class="shadow rounded w-100 p-2">
+                    <h3>INDICATEURS</h3>
+                    <p class="stats">4M</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-2">
+                <div class="shadow rounded w-100 p-2">
+                    <h3>PUBLICATIONS</h3>
+                    <p class="stats">4M</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-2">
+                <div class="shadow rounded w-100 p-2">
+                    <h3>ETUDES</h3>
+                    <p class="stats">4M</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-2">
+                <div class="shadow rounded w-100 p-2">
+                    <h3>ENQUETES</h3>
+                    <p class="stats">4M</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="shadow rounded m-0" style="height:500px;width: 100%;background-color: white;">
+            <ngx-charts-bar-vertical-normalized [scheme]="colorScheme" [results]="multi" [gradient]="gradient"
+                [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+                [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+                [legendTitle]="legendTitle">
+            </ngx-charts-bar-vertical-normalized>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="row m-0">
+    <div class="col-lg-4 col-md-4 col-sm-12" style="background-color: #548CA8;color:#F6F5F5 ;">
+        <h2>Activités recents</h2>
+        <h5>activity 1</h5>
+        <h5>activity 2</h5>
+        <h5>activity 3</h5>
+        <h5>activity 4</h5>
+        <h5>activity 5</h5>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="row m-0">
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-3 p-1">
+                <div class="alt-menu">
+                    <p>
+                        <mat-icon>arrow_right</mat-icon>INDICATEURS
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-3 p-1">
+                <div class="alt-menu">
+                    <p>
+                        <mat-icon>arrow_right</mat-icon>PUBLICATIONS
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-3 p-1">
+                <div class="alt-menu">
+                    <p>
+                        <mat-icon>arrow_right</mat-icon>ETUDES
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-3 p-1">
+                <div class="alt-menu">
+                    <p>
+                        <mat-icon>arrow_right</mat-icon>ENQUETES
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

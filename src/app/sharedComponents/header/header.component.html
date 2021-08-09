@@ -1,0 +1,21 @@
+<mat-toolbar [class.mat-elevation-z8]="true">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span style="margin-left:6px;">HCP</span>
+        <span id="spance"></span>
+        <ul>
+            <li>
+                <button mat-button [matMenuTriggerFor]="menu">
+                    <mat-icon>person_outline</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item (click)="logout()">
+                        <mat-icon>exit_to_app</mat-icon>Déconnecter
+                    </button>
+                </mat-menu>
+            </li>
+        </ul>
+    </mat-toolbar-row>
+</mat-toolbar>

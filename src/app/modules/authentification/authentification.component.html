@@ -1,0 +1,33 @@
+<section class="vh-100" style="background-color: #488A99">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow" data-aos="fade-down">
+                    <div class="card-body p-5 text-center">
+                        <form #form='ngForm' (submit)="onSubmit(form)">
+                            <img src="../../../assets/Hcpicon.png" class="mb-5 img-fluid shadow"
+                                style="height: 100px;border-radius: 50%;">
+
+                            <div class="form-outline mb-4">
+                                <input type="email" name="email" ngModel id="email" placeholder="Email"
+                                    class="form-control form-control-lg" required/>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="password"  name="motdepasse" ngModel id="password" placeholder="Mot de passe"
+                                    class="form-control form-control-lg" required/>
+                            </div>
+                            <p class="mb-4 text-danger" *ngIf='errText'>{{errText}}</p>
+                            <input class="btn btn-lg" type="submit" value="Se connecter" [disabled]="!form.valid" style="background-color:#488A99;color: white;">
+                            <mat-spinner style="margin: 6px auto;" *ngIf="loading"></mat-spinner>
+                            <hr class="my-4">
+                            <p>
+                                <mat-icon style="vertical-align: bottom;">copyright</mat-icon>HCP 2021
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

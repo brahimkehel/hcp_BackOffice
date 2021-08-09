@@ -1,0 +1,32 @@
+.stats {
+    color: #548ca8;
+    font-size: large;
+    text-align: center;
+}
+
+.alt-menu {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #D3E0EA;
+    color: #334257;
+    display: table;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+.alt-menu:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.alt-menu p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+mat-icon {
+    vertical-align: bottom;
+}

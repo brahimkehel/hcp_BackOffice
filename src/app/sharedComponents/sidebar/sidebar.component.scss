@@ -1,0 +1,45 @@
+.profile-card{
+    text-align: center;
+    padding:0 10px 10px 10px;
+}
+.header{
+    span{
+        margin-top: 6px;
+        font-size: 1rem;
+        display: block;
+    }
+}
+#profil-img{
+    height: 100px;
+    width:100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    color: #548CA8;
+    display: table;
+    text-align: center;
+    p{
+        font-size: 1rem;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+a span{
+    color: lightslategray;
+    margin-left: 8px;
+}
+
+a span:hover{
+    color: white;
+    text-transform: uppercase;
+}
+
+.list-item-active span{
+    color: white;
+    text-transform: uppercase;
+}
+
+mat-icon{
+    color: white;
+}
